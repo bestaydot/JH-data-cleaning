@@ -1,11 +1,7 @@
-# JH-data-cleaning
-Data cleaning
-1. Unzip the downloaded file
-2. Read to table the training and the test file
-3. Examine the data using str statement
-4. Merge the data using rbind, this will merge similar column
-5. Read the feature.txt file to a table
-6. Make all the data lowercase and use as column heading of the main table
-7. Read to table subject_train.txt and subject_test.txt
-8. Combine the tables above to a single table and merge withe main table to identify each subject data for the analysis
-9. Tidy the column header
+This repo contains data downloaded from https://archive.ics.uci.edu/ml/datasets/Smartphone-Based+Recognition+of+Human+Activities+and+Postural+Transitions. 
+
+The data were recorded, from smart devices that were used by 30 different volunteer participating in an experiments to determine the functionality of the device, tied along their waist.
+
+Each person was given a code between  1 to 30, which is identified as “subject” in the data.
+
+For more details concerning the experiment and features name, click on the link above.
